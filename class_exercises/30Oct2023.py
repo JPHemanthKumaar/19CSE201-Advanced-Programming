@@ -1,0 +1,15 @@
+myneighbours = ["Hemanth"]
+myneighbours.append("ghjk")
+print(myneighbours)
+myneighbours.insert(0, "fghj")
+print(myneighbours)
+myneighbours.append("fghj")
+print(myneighbours)
+myneighbours.insert(1, "wertyui")
+print(myneighbours)
+myneighbours2 = myneighbours.copy()
+myneighbours.clear()
+print(myneighbours)
+del myneighbours
+# print(myneighbours)
+print(myneighbours2)
